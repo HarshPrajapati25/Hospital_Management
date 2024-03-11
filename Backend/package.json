@@ -1,0 +1,27 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "\"HP\"",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "@faker-js/faker": "^8.4.1",
+    "@graphql-tools/resolvers-composition": "^7.0.0",
+    "apollo-server": "^3.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "faker": "^6.6.6",
+    "graphql": "^16.8.1",
+    "html": "^1.0.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.1.1",
+    "uuid": "^9.0.1"
+  }
+}
